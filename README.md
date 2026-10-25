@@ -18,11 +18,6 @@ Aim:To implement a singly linked list in C++ and perform various linked list ope
 - Traversal and display: O(n)
 - Searching: O(n)
 
-
-### Test Cases
-
-Test Cases
-
 ### Test Cases
 
 | Test Case | Operation | Expected Result |
@@ -33,6 +28,7 @@ Test Cases
 | 4 | Search for 50 | 50 not found in the list |
 | 5 | Delete 20 | 20 deleted successfully |
 | 6 | Display the list | 5 -> 10 -> 30 -> NULL |
+
 ### Source Code
 Program: Singly Linked List in C++
 [Click here to view the source code](./linked_list.cpp)
