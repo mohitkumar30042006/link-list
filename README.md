@@ -373,3 +373,123 @@ Queue elements: 20 30
 
 ### Source Code
 [Click here to view the source code](./circular_queue.cpp)
+## Program 10: Merge Sort in C++
+
+### Aim
+To sort an array using the merge sort algorithm.
+
+### Description
+Merge sort divides an array into smaller parts, sorts them, and merges them.
+
+### Algorithm
+1. Divide the array into two halves.
+2. Recursively sort both halves.
+3. Merge the sorted halves.
+
+### Time Complexity
+
+| Case | Time Complexity |
+|---|---|
+| Best | O(n log n) |
+| Average | O(n log n) |
+| Worst | O(n log n) |
+
+### Space Complexity
+O(n)
+
+### Test Cases
+
+| Input | Expected Output |
+|---|---|
+| 5 3 8 1 2 | 1 2 3 5 8 |
+| 9 4 6 2 | 2 4 6 9 |
+
+### Output
+```text
+Original array: 5 3 8 1 2
+Sorted array: 1 2 3 5 8
+```
+
+### Source Code
+[Click here to view the source code](./merge_sort.cpp)
+
+## Program 11: Bucket Sort in C++
+
+### Aim
+To sort an array using the bucket sort algorithm.
+
+### Description
+Bucket sort distributes elements into buckets, sorts them, and combines them.
+
+### Algorithm
+1. Create buckets and distribute elements.
+2. Sort each bucket.
+3. Combine all buckets into the sorted array.
+
+### Time Complexity
+
+| Case | Time Complexity |
+|---|---|
+| Best | O(n + k) |
+| Average | O(n + k) |
+| Worst | O(n²) |
+
+Here, `n` is the number of elements and `k` is the number of buckets.
+
+### Space Complexity
+O(n + k)
+
+### Test Cases
+
+| Input | Expected Output |
+|---|---|
+| 5 3 8 1 2 | 1 2 3 5 8 |
+| 9 4 6 2 | 2 4 6 9 |
+
+### Output
+```text
+Original array: 5 3 8 1 2
+Sorted array: 1 2 3 5 8
+```
+
+### Source Code
+[Click here to view the source code](./bucket.cpp)
+## Program 12: Quick Sort in C++
+
+### Aim
+To sort an array using the quick sort algorithm.
+
+### Description
+Quick sort selects a pivot and partitions the array around it, then sorts both parts recursively.
+
+### Algorithm
+1. Select a pivot element.
+2. Partition the array around the pivot.
+3. Recursively sort both parts.
+
+### Time Complexity
+
+| Case | Time Complexity |
+|---|---|
+| Best | O(n log n) |
+| Average | O(n log n) |
+| Worst | O(n²) |
+
+### Space Complexity
+O(log n) on average due to recursion.
+
+### Test Cases
+
+| Input | Expected Output |
+|---|---|
+| 5 3 8 1 2 | 1 2 3 5 8 |
+| 9 4 6 2 | 2 4 6 9 |
+
+### Output
+```text
+Original array: 5 3 8 1 2
+Sorted array: 1 2 3 5 8
+```
+
+### Source Code
+[Click here to view the source code](./quick.cpp)
