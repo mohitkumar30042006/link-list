@@ -329,3 +329,47 @@ Queue elements: 20 30
 
 ### Source Code
 [Click here to view the source code](./queue_ll.cpp)
+
+## Program 9: Circular Queue Using Array in C++
+
+### Aim
+To implement a circular queue using an array in C++.
+
+### Description
+A circular queue follows FIFO and reuses empty spaces using circular indexing.
+
+### Algorithm
+1. Initialize `front` and `rear` to -1.
+2. Use `enqueue()` to insert elements.
+3. Use `dequeue()` to remove elements.
+4. Use `display()` to print elements.
+
+### Time Complexity
+
+| Operation | Time Complexity |
+|---|---|
+| Enqueue | O(1) |
+| Dequeue | O(1) |
+| Display | O(n) |
+
+### Space Complexity
+O(n), where n is the queue capacity.
+
+### Test Cases
+
+| Test Case | Input | Expected Output |
+|---|---|---|
+| 1 | Enqueue 10, 20, 30 | 10 20 30 |
+| 2 | Dequeue | Removes 10 |
+| 3 | Display | 20 30 |
+| 4 | Insert into a full queue | Queue Overflow |
+
+### Output
+```text
+Queue elements: 10 20 30
+10 removed from queue
+Queue elements: 20 30
+```
+
+### Source Code
+[Click here to view the source code](./circular_queue.cpp)
