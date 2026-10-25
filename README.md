@@ -196,4 +196,49 @@ Stack elements: 20 10
 ### Source Code
 
 [Click here to view the source code](./stacks_arr.cpp)
+## Program 6: Stack Using Linked List in C++
+
+### Aim
+To implement a stack using a linked list in C++.
+
+### Description
+A stack follows LIFO (Last In, First Out). Insertion and deletion take place at the top.
+
+### Algorithm
+1. Initialize `top` to NULL.
+2. Use `push()` to insert a node at the top.
+3. Use `pop()` to delete the top node.
+4. Use `display()` to print the stack elements.
+
+### Time Complexity
+
+| Operation | Time Complexity |
+|---|---|
+| Push | O(1) |
+| Pop | O(1) |
+| Display | O(n) |
+
+### Space Complexity
+O(n), where n is the number of elements.
+
+### Test Cases
+
+| Test Case | Input | Expected Output |
+|---|---|---|
+| 1 | Push 10, 20, 30 | 30 20 10 |
+| 2 | Pop | Removes 30 |
+| 3 | Display | 20 10 |
+| 4 | Pop from empty stack | Stack Underflow |
+
+### Output
+```text
+10 pushed into stack
+20 pushed into stack
+30 pushed into stack
+Stack elements: 30 20 10
+30 popped from stack
+Stack elements: 20 10
+```
+### Source Code
+[Click here to view the source code](./stack_ll.cpp)
 
