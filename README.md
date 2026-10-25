@@ -70,8 +70,7 @@ A doubly linked list is a linear data structure in which each node contains data
 | Display forward | O(n) |
 | Display backward | O(n) |
 
-### Space Complexity
-O(n), where n is the number of nodes in the list.
+
 
 ### Test Cases
 
@@ -120,8 +119,7 @@ A circular linked list is a data structure in which the last node points back to
 | Insert a node into a non-empty list | O(n) |
 | Display the list | O(n) |
 
-### Space Complexity
-O(n), where n is the number of nodes in the list.
+
 
 ### Test Cases
 
@@ -169,8 +167,6 @@ The main operations are:
 | Pop | O(1) |
 | Display | O(n) |
 
-### Space Complexity
-O(n), where n is the maximum capacity of the array.
 
 ### Test Cases
 
@@ -218,8 +214,7 @@ A stack follows LIFO (Last In, First Out). Insertion and deletion take place at 
 | Pop | O(1) |
 | Display | O(n) |
 
-### Space Complexity
-O(n), where n is the number of elements.
+
 
 ### Test Cases
 
