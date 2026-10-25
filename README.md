@@ -158,12 +158,9 @@ The main operations are:
 
 ### Algorithm
 1. Declare an array of fixed size MAX.
-2. Initialize top to -1 to indicate an empty stack.
 3. For push, check whether the stack is full. If not, increment top and insert the element.
 4. For pop, check whether the stack is empty. If not, display and remove the top element.
 5. For display, print the elements from top to bottom.
-6. Stop the program.
-
 ### Time Complexity
 
 | Operation | Time Complexity |
