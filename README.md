@@ -141,3 +141,62 @@ Circular Linked List: 10 20 30
 ### Source Code
 
 [Click here to view the source code](./circular_ll.cpp)
+---
+
+## Program 4: Stack Using Array in C++
+
+### Aim
+To implement a stack using an array in C++ and perform push, pop, and display operations.
+
+### Description
+A stack is a linear data structure that follows the LIFO (Last In, First Out) principle. The element inserted last is removed first.
+
+The main operations are:
+- Push: Inserts an element into the stack.
+- Pop: Removes the top element from the stack.
+- Display: Displays the stack elements from top to bottom.
+
+### Algorithm
+1. Declare an array of fixed size MAX.
+2. Initialize top to -1 to indicate an empty stack.
+3. For push, check whether the stack is full. If not, increment top and insert the element.
+4. For pop, check whether the stack is empty. If not, display and remove the top element.
+5. For display, print the elements from top to bottom.
+6. Stop the program.
+
+### Time Complexity
+
+| Operation | Time Complexity |
+|---|---|
+| Push | O(1) |
+| Pop | O(1) |
+| Display | O(n) |
+
+### Space Complexity
+O(n), where n is the maximum capacity of the array.
+
+### Test Cases
+
+| Test Case | Operation | Expected Result |
+|---|---|---|
+| 1 | Push 10 | 10 pushed into stack |
+| 2 | Push 20 | 20 pushed into stack |
+| 3 | Push 30 | 30 pushed into stack |
+| 4 | Display | 30 20 10 |
+| 5 | Pop | 30 popped from stack |
+| 6 | Display | 20 10 |
+
+### Output
+
+```text
+10 pushed into stack
+20 pushed into stack
+30 pushed into stack
+Stack elements: 30 20 10
+30 popped from stack
+Stack elements: 20 10
+```
+### Source Code
+
+[Click here to view the source code](./stacks_arr.cpp)
+
