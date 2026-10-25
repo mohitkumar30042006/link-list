@@ -92,3 +92,52 @@ Program: Singly Linked List in C++
 ```text
 Forward: 10 20 30
 Backward: 30 20 10
+```
+---
+
+## Program 3: Circular Linked List in C++
+
+### Aim
+To implement a circular linked list in C++ and perform insertion and traversal operations.
+
+### Description
+A circular linked list is a data structure in which the last node points back to the first node instead of pointing to NULL. This creates a circular structure.
+
+### Algorithm
+1. Create a Node class containing data and a pointer to the next node.
+2. Initialize the head pointer to NULL.
+3. Create a new node for each element.
+4. If the list is empty, make the new node point to itself and set it as the head.
+5. Otherwise, traverse to the last node and connect it to the new node.
+6. Make the new node point to the head.
+7. Display the elements using a do-while loop until the head is reached again.
+
+### Time Complexity
+
+| Operation | Time Complexity |
+|---|---|
+| Insert into an empty list | O(1) |
+| Insert a node into a non-empty list | O(n) |
+| Display the list | O(n) |
+
+### Space Complexity
+O(n), where n is the number of nodes in the list.
+
+### Test Cases
+
+| Test Case | Operation | Expected Result |
+|---|---|---|
+| 1 | Insert 10 | 10 |
+| 2 | Insert 20 | 10 20 |
+| 3 | Insert 30 | 10 20 30 |
+| 4 | Display the list | All elements displayed in insertion order |
+
+### Output
+
+```text
+Circular Linked List: 10 20 30
+```
+
+### Source Code
+
+[Click here to view the source code](./circular_ll.cpp)
