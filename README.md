@@ -1,4 +1,4 @@
-#singly linked list
+# linked list
 DSA Lab Program
 Program 1: Singly Linked List in C++
 Aim:To implement a singly linked list in C++ and perform various linked list operations.
