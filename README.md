@@ -41,3 +41,28 @@ Linked List: 5 -> 10 -> 20 -> 30 -> NULL
 50 not found in the list.
 20 deleted successfully.
 Linked List: 5 -> 10 -> 30 -> NULL**
+---
+
+## Program 2: Doubly Linked List in C++
+
+### Aim
+To implement a doubly linked list in C++ and perform insertion and traversal operations.
+
+### Description
+A doubly linked list is a linear data structure in which each node contains data, a pointer to the previous node, and a pointer to the next node. It allows traversal in both forward and backward directions.
+
+### Algorithm
+1. Create a node structure containing data, a previous pointer, and a next pointer.
+2. Initialize the head and tail pointers to NULL.
+3. Insert elements at the end or beginning of the list.
+4. Traverse from head to tail to display the list in forward order.
+5. Traverse from tail to head to display the list in backward order.
+
+### Time Complexity
+
+| Operation | Time Complexity |
+|---|---|
+| Insert at beginning | O(1) |
+| Insert at end | O(1) |
+| Display forward | O(n) |
+| Display backward |
