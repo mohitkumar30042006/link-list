@@ -534,3 +534,43 @@ Sorted array: 45 75 90 170 802
 
 ### Source Code
 [Click here to view the source code](./radix.cpp)
+
+## Program 14: Heap Sort in C++
+
+### Aim
+To sort an array using the heap sort algorithm.
+
+### Description
+Heap sort uses a binary heap to sort elements in ascending order.
+
+### Algorithm
+1. Build a max heap.
+2. Swap the root with the last element.
+3. Reduce the heap and repeat until sorted.
+
+### Time Complexity
+
+| Case | Time Complexity |
+|---|---|
+| Best | O(n log n) |
+| Average | O(n log n) |
+| Worst | O(n log n) |
+
+### Space Complexity
+O(1) auxiliary space for an in-place implementation.
+
+### Test Cases
+
+| Input | Expected Output |
+|---|---|
+| 5 3 8 1 2 | 1 2 3 5 8 |
+| 9 4 6 2 | 2 4 6 9 |
+
+### Output
+```text
+Original array: 5 3 8 1 2
+Sorted array: 1 2 3 5 8
+```
+
+### Source Code
+[Click here to view the source code](./heap_sort.cpp)
