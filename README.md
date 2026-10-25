@@ -33,11 +33,11 @@ Aim:To implement a singly linked list in C++ and perform various linked list ope
 Program: Singly Linked List in C++
 [Click here to view the source code](./linked_list.cpp)
 
-### Output
+**### Output
 
+```text
 Linked List: 5 -> 10 -> 20 -> 30 -> NULL
 20 found at position 3.
 50 not found in the list.
 20 deleted successfully.
-Linked List: 5 -> 10 -> 30 -> NULL
-
+Linked List: 5 -> 10 -> 30 -> NULL**
