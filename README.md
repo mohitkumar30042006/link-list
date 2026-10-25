@@ -23,14 +23,16 @@ Aim:To implement a singly linked list in C++ and perform various linked list ope
 
 Test Cases
 
-Test Case| Operation       | Expected Result
-1| Insert 10, 20, 30 at end| "10 -> 20 -> 30 -> NULL"
-2| Insert 5 at beginning   | "5 -> 10 -> 20 -> 30 -> NULL"
-3| Search for 20           | 20 found at position 3
-4| Search for 50           | 50 not found in the list
-5| Delete 20               | 20 deleted successfully
-6| Display the list        | "5 -> 10 -> 30 -> NULL" 
+### Test Cases
 
+| Test Case | Operation | Expected Result |
+|---|---|---|
+| 1 | Insert 10, 20, 30 at end | 10 -> 20 -> 30 -> NULL |
+| 2 | Insert 5 at beginning | 5 -> 10 -> 20 -> 30 -> NULL |
+| 3 | Search for 20 | 20 found at position 3 |
+| 4 | Search for 50 | 50 not found in the list |
+| 5 | Delete 20 | 20 deleted successfully |
+| 6 | Display the list | 5 -> 10 -> 30 -> NULL |
 ### Source Code
 Program: Singly Linked List in C++
 [Click here to view the source code](./linked_list.cpp)
