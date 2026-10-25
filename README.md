@@ -41,6 +41,7 @@ Linked List: 5 -> 10 -> 20 -> 30 -> NULL
 50 not found in the list.
 20 deleted successfully.
 Linked List: 5 -> 10 -> 30 -> NULL**
+```
 ---
 
 ## Program 2: Doubly Linked List in C++
