@@ -44,6 +44,8 @@ Linked List: 5 -> 10 -> 30 -> NULL**
 ```
 ---
 
+---
+
 ## Program 2: Doubly Linked List in C++
 
 ### Aim
@@ -66,4 +68,23 @@ A doubly linked list is a linear data structure in which each node contains data
 | Insert at beginning | O(1) |
 | Insert at end | O(1) |
 | Display forward | O(n) |
-| Display backward |
+| Display backward | O(n) |
+
+### Space Complexity
+O(n), where n is the number of nodes in the list.
+
+### Test Cases
+
+| Test Case | Operation | Expected Result |
+|---|---|---|
+| 1 | Insert 10 at end | 10 |
+| 2 | Insert 20 at end | 10 20 |
+| 3 | Insert 30 at end | 10 20 30 |
+| 4 | Display forward | 10 20 30 |
+| 5 | Display backward | 30 20 10 |
+
+### Output
+
+```text
+Forward: 10 20 30
+Backward: 30 20 10
