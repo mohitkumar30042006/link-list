@@ -283,3 +283,49 @@ Queue elements: 20 30
 ### Source Code
 [Click here to view the source code](./queue_arr.cpp)
 
+## Program 8: Queue Using Linked List in C++
+
+### Aim
+To implement a queue using a linked list in C++.
+
+### Description
+A queue follows FIFO (First In, First Out). Insertion occurs at the rear and deletion at the front.
+
+### Algorithm
+1. Initialize `front` and `rear` to NULL.
+2. Use `enqueue()` to insert a node at the rear.
+3. Use `dequeue()` to remove a node from the front.
+4. Use `display()` to print the queue elements.
+
+### Time Complexity
+
+| Operation | Time Complexity |
+|---|---|
+| Enqueue | O(1) |
+| Dequeue | O(1) |
+| Display | O(n) |
+
+### Space Complexity
+O(n), where n is the number of elements.
+
+### Test Cases
+
+| Test Case | Input | Expected Output |
+|---|---|---|
+| 1 | Enqueue 10, 20, 30 | 10 20 30 |
+| 2 | Dequeue | Removes 10 |
+| 3 | Display | 20 30 |
+| 4 | Dequeue from empty queue | Queue Underflow |
+
+### Output
+```text
+10 inserted into queue
+20 inserted into queue
+30 inserted into queue
+Queue elements: 10 20 30
+10 removed from queue
+Queue elements: 20 30
+```
+
+### Source Code
+[Click here to view the source code](./queue_ll.cpp)
