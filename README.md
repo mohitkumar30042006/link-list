@@ -493,3 +493,44 @@ Sorted array: 1 2 3 5 8
 
 ### Source Code
 [Click here to view the source code](./quick.cpp)
+## Program 13: Radix Sort in C++
+
+### Aim
+To sort an array using the radix sort algorithm.
+
+### Description
+Radix sort sorts numbers digit by digit, starting from the least significant digit.
+
+### Algorithm
+1. Find the maximum element.
+2. Sort elements digit by digit.
+3. Repeat until all digits are processed.
+
+### Time Complexity
+
+| Case | Time Complexity |
+|---|---|
+| Best | O(d × (n + 10)) |
+| Average | O(d × (n + 10)) |
+| Worst | O(d × (n + 10)) |
+
+Here, `n` is the number of elements and `d` is the maximum number of digits.
+
+### Space Complexity
+O(n + 10)
+
+### Test Cases
+
+| Input | Expected Output |
+|---|---|
+| 170 45 75 90 802 | 45 75 90 170 802 |
+| 64 25 12 22 | 12 22 25 64 |
+
+### Output
+```text
+Original array: 170 45 75 90 802
+Sorted array: 45 75 90 170 802
+```
+
+### Source Code
+[Click here to view the source code](./radix.cpp)
