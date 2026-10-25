@@ -237,3 +237,49 @@ Stack elements: 20 10
 ### Source Code
 [Click here to view the source code](./stack_ll.cpp)
 
+## Program 7: Queue Using Array in C++
+
+### Aim
+To implement a queue using an array in C++.
+
+### Description
+A queue follows FIFO (First In, First Out). Insertion takes place at the rear, and deletion takes place at the front.
+
+### Algorithm
+1. Initialize `front` and `rear` to -1.
+2. Use `enqueue()` to insert an element.
+3. Use `dequeue()` to remove an element.
+
+### Time Complexity
+
+| Operation | Time Complexity |
+|---|---|
+| Enqueue | O(1) |
+| Dequeue | O(1) |
+| Display | O(n) |
+
+### Space Complexity
+O(n), where n is the queue capacity.
+
+### Test Cases
+
+| Test Case | Input | Expected Output |
+|---|---|---|
+| 1 | Enqueue 10, 20, 30 | 10 20 30 |
+| 2 | Dequeue | Removes 10 |
+| 3 | Display | 20 30 |
+| 4 | Dequeue from empty queue | Queue Underflow |
+
+### Output
+```text
+10 inserted into queue
+20 inserted into queue
+30 inserted into queue
+Queue elements: 10 20 30
+10 removed from queue
+Queue elements: 20 30
+```
+
+### Source Code
+[Click here to view the source code](./queue_arr.cpp)
+
