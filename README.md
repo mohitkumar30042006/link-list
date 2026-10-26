@@ -556,8 +556,6 @@ Heap sort uses a binary heap to sort elements in ascending order.
 | Average | O(n log n) |
 | Worst | O(n log n) |
 
-### Space Complexity
-O(1) auxiliary space for an in-place implementation.
 
 ### Test Cases
 
@@ -574,6 +572,48 @@ Sorted array: 1 2 3 5 8
 
 ### Source Code
 [Click here to view the source code](./heap_sort.cpp)
+## Program 16: Tower of Hanoi in C++
+
+### Aim
+To solve the Tower of Hanoi problem using recursion.
+
+### Description
+Tower of Hanoi moves disks from a source rod to a destination rod using an auxiliary rod.
+
+### Algorithm
+1. Move `n-1` disks to the auxiliary rod.
+2. Move the largest disk to the destination rod.
+3. Move `n-1` disks to the destination rod.
+
+### Time Complexity
+
+| Case | Time Complexity |
+|---|---|
+| All cases | O(2ⁿ) |
+
+### Space Complexity
+O(n), due to recursion.
+
+### Test Case
+
+| Input | Expected Output |
+|---|---|
+| Number of disks = 3 | 7 moves |
+
+### Output
+```text
+Move disk 1 from A to C
+Move disk 2 from A to B
+Move disk 1 from C to B
+Move disk 3 from A to C
+Move disk 1 from B to A
+Move disk 2 from B to C
+Move disk 1 from A to C
+```
+
+### Source Code
+[Click here to view the source code](./tower_of_hanoi.cpp)
+
 ## Program 15: Binary Tree Insertion and Traversals in C++
 
 ### Aim
