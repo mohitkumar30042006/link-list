@@ -775,3 +775,76 @@ BST after deletion: 40 60 70 80
 
 ### Source Code
 [Click here to view the source code](./bst.cpp)
+
+## Program 19: AVL Tree Operations in C++
+
+### Aim
+To implement an AVL tree using insertion, rotations, and balance checking.
+
+### Description
+An AVL tree is a self-balancing BST. It uses LL, RR, LR, and RL rotations to maintain balance.
+
+### Algorithm
+1. Insert nodes using BST rules.
+2. Update node heights and calculate balance factors.
+3. Apply rotations if the tree becomes unbalanced.
+4. Perform inorder traversal and check balance.
+
+### Time Complexity
+
+| Operation | Time Complexity |
+|---|---|
+| Insertion | O(log n) |
+| Inorder Traversal | O(n) |
+| Balance Checking | O(n) |
+
+### Space Complexity
+O(n) for the tree and O(log n) recursion space for a balanced AVL tree.
+
+### Test Cases
+
+| Case | Insertion Order | Rotation |
+|---|---|---|
+| LL | 30, 20, 10 | Right rotation |
+| RR | 10, 20, 30 | Left rotation |
+| LR | 30, 10, 20 | Left, then right rotation |
+| RL | 10, 30, 20 | Right, then left rotation |
+
+### Output
+
+**1. LL Rotation**
+```text
+Insertion: 30, 20, 10
+Inorder: 10 20 30
+Balanced: Yes
+```
+
+**2. RR Rotation**
+```text
+Insertion: 10, 20, 30
+Inorder: 10 20 30
+Balanced: Yes
+```
+
+**3. LR Rotation**
+```text
+Insertion: 30, 10, 20
+Inorder: 10 20 30
+Balanced: Yes
+```
+
+**4. RL Rotation**
+```text
+Insertion: 10, 30, 20
+Inorder: 10 20 30
+Balanced: Yes
+```
+
+**5. Output of the Given Program**
+```text
+Inorder: 10 20 25 30 40 50
+Balanced: Yes
+```
+
+### Source Code
+[Click here to view the source code](./avl
