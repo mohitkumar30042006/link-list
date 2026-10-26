@@ -574,3 +574,43 @@ Sorted array: 1 2 3 5 8
 
 ### Source Code
 [Click here to view the source code](./heap_sort.cpp)
+## Program 15: Binary Tree Insertion and Traversals in C++
+
+### Aim
+To insert nodes into a binary tree and perform inorder, preorder, and postorder traversals.
+
+### Description
+A binary tree consists of nodes with at most two children. Traversals visit nodes in different orders.
+
+### Algorithm
+1. Insert nodes into the binary tree.
+2. **Inorder:** Left → Root → Right.
+3. **Preorder:** Root → Left → Right.
+4. **Postorder:** Left → Right → Root.
+
+### Time Complexity
+
+| Operation | Time Complexity |
+|---|---|
+| Insertion | Depends on the insertion method |
+| Inorder Traversal | O(n) |
+| Preorder Traversal | O(n) |
+| Postorder Traversal | O(n) |
+
+### Space Complexity
+O(n), including the tree and recursion stack in the worst case.
+
+### Test Case
+
+**Input:** Insert nodes in this order: 1, 2, 3, 4, 5, 6, 7.
+
+### Output
+
+```text
+Inorder Traversal: 4 2 5 1 6 3 7
+Preorder Traversal: 1 2 4 5 3 6 7
+Postorder Traversal: 4 5 2 6 7 3 1
+```
+
+### Source Code
+[Click here to view the source code](./binary_tree.cpp)
