@@ -697,3 +697,81 @@ Postorder Traversal: 4 5 2 6 7 3 1
 
 ### Source Code
 [Click here to view the source code](./binary_tree.cpp)
+
+## Program 18: Binary Search Tree (BST) Operations in C++
+
+### Aim
+To perform insertion, searching, inorder traversal, and deletion in a BST.
+
+### Description
+A BST stores smaller values on the left and larger values on the right. Deletion handles three cases: leaf node, one child, and two children.
+
+### Algorithm
+1. Insert nodes according to BST properties.
+2. Search for a key by comparing values.
+3. Delete a leaf node directly.
+4. For one child, replace the node with its child.
+5. For two children, replace the node with its inorder successor.
+6. Use inorder traversal to display sorted values.
+
+### Time Complexity
+
+| Operation | Average Case | Worst Case |
+|---|---|---|
+| Insertion | O(log n) | O(n) |
+| Searching | O(log n) | O(n) |
+| Deletion | O(log n) | O(n) |
+| Inorder Traversal | O(n) | O(n) |
+
+### Space Complexity
+O(n) for the tree and O(h) auxiliary recursion space, where h is the tree height.
+
+### Test Cases
+
+| Operation | Input | Expected Result |
+|---|---|---|
+| Insertion | 50, 30, 70, 20, 40, 60, 80 | BST created |
+| Searching | Search 40 | 40 found in BST |
+| Deletion Case 1 | Delete 20 | Leaf node deleted |
+| Deletion Case 2 | Delete 30 | Node with one child deleted |
+| Deletion Case 3 | Delete 50 | Node with two children deleted |
+
+### Output
+
+**1. BST after insertion:**
+```text
+BST Inorder: 20 30 40 50 60 70 80
+```
+
+**2. Searching for 40:**
+```text
+40 found in BST
+```
+
+**3. Deletion Case 1 — Leaf Node (20):**
+```text
+Before deletion: 20 30 40 50 60 70 80
+After deletion:  30 40 50 60 70 80
+```
+
+**4. Deletion Case 2 — Node with One Child (30):**
+```text
+Before deletion: 30 40 50 60 70 80
+After deletion:  40 50 60 70 80
+```
+
+**5. Deletion Case 3 — Node with Two Children (50):**
+```text
+Before deletion: 40 50 60 70 80
+After deletion:  40 60 70 80
+```
+
+**6. Final Output of the Given Program:**
+```text
+BST Inorder: 20 30 40 50 60 70 80
+40 found in BST
+BST after deletion: 40 60 70 80
+```
+
+### Source Code
+[Click here to view the source code](./bst.cpp)
