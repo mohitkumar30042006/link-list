@@ -613,6 +613,49 @@ Move disk 1 from A to C
 
 ### Source Code
 [Click here to view the source code](./tower_of_hanoi.cpp)
+## Program 17: Valid Parentheses in C++
+
+### Aim
+To check whether a string contains valid parentheses.
+
+### Description
+A stack is used to check whether brackets are correctly matched and balanced.
+
+### Algorithm
+1. Push opening brackets onto the stack.
+2. Match each closing bracket with the stack's top.
+3. Return `true` if all brackets match; otherwise, return `false`.
+
+### Time Complexity
+
+| Operation | Time Complexity |
+|---|---|
+| Validation | O(n) |
+
+### Space Complexity
+O(n), where n is the string length.
+
+### Test Cases
+
+| Input | Expected Output |
+|---|---|
+| `()` | `true` |
+| `()[]{}` | `true` |
+| `(]` | `false` |
+| `((` | `false` |
+| `{[()]}` | `true` |
+
+### Output
+```text
+() -> true
+()[]{} -> true
+(] -> false
+(( -> false
+{[()]} -> true
+```
+
+### Source Code
+[Click here to view the source code](./valid_parenthesis.cpp)
 
 ## Program 15: Binary Tree Insertion and Traversals in C++
 
