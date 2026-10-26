@@ -572,7 +572,7 @@ Sorted array: 1 2 3 5 8
 
 ### Source Code
 [Click here to view the source code](./heap_sort.cpp)
-## Program 16: Tower of Hanoi in C++
+## Program 15: Tower of Hanoi in C++
 
 ### Aim
 To solve the Tower of Hanoi problem using recursion.
@@ -613,7 +613,7 @@ Move disk 1 from A to C
 
 ### Source Code
 [Click here to view the source code](./tower_of_hanoi.cpp)
-## Program 17: Valid Parentheses in C++
+## Program 16: Valid Parentheses in C++
 
 ### Aim
 To check whether a string contains valid parentheses.
@@ -657,7 +657,7 @@ O(n), where n is the string length.
 ### Source Code
 [Click here to view the source code](./valid_parenthesis.cpp)
 
-## Program 15: Binary Tree Insertion and Traversals in C++
+## Program 17: Binary Tree Insertion and Traversals in C++
 
 ### Aim
 To insert nodes into a binary tree and perform inorder, preorder, and postorder traversals.
